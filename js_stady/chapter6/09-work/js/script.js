@@ -6,8 +6,9 @@ for (let i = 0; i < items.length; i++) {
     opacity: [0, 1],
     // rotate: ['x 90deg', 0]
     // translate: ['0 50px', 0],
-    rotate: ['5deg', 0],
-    scale: [1.1,1],
+    // rotate: ['5deg', 0],
+    // scale: [1.1,1],
+    filter: ['blur(20px)', 'blur(0)'],
   };
   const options = {
     duration: 600,
