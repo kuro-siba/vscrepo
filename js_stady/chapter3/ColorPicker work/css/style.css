@@ -5,7 +5,6 @@ body {
     /* display:gridの縦横中央揃えはplace-itemを使える */
     /* align-itemsとjustify-itemsプロパティを一括指定できるショートハンド */
     place-items: center;
-    
     height: 100vh;
     background: #000;
 }
