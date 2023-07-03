@@ -13,7 +13,7 @@ const color = document.querySelector('#colorPicker');
 
 // 関数colorBgの定義
 const colorBg = () => {
-text.textContent = `カラーコード：${color.value}`;
+  text.textContent = `カラーコード：${color.value}`;
 }
 
 
