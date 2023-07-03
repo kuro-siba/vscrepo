@@ -6,14 +6,15 @@ const text = document.querySelector('#colortext');
 const color = document.querySelector('#colorPicker');
 
 // id="colortext"のp要素のテキストを変える
-//  補足：JavaScriptを使うことで表示されているWebページを後から変更することができる
 //  .textContentで、要素内のテキストを変えることができる
   // 何に変えるかは、
   //    先頭に、カラーコードの文字列
   //    その後に、id="colorPicker"のinput要素の値（#000000など）
+
+// 関数colorBgの定義
+const colorBg = () => {
 text.textContent = `カラーコード：${color.value}`;
-
-
+}
 
 
 
